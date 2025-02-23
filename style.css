@@ -1,0 +1,39 @@
+.top {
+  width: 800px;
+  background-color: #dcc9f4;
+}
+.top-child {
+  height: 150px;
+  height: 20%;
+  background-color: #ffd9df;
+}
+
+.middle {
+  width: 800px;
+  height: 800px;
+  background-color: #ffd9df;
+}
+#middle-child01 {
+  position: static;
+  top: 100px;
+  right: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+#middle-child02 {
+  position: fixed;
+  top: 300px;
+  right: 300px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+#middle-child03 {
+  position: absolute;
+  top: 500px;
+  right: 500px;
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
